@@ -2,6 +2,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QHBoxLayout
 from instr import *
 from vin_2 import *
+from vin_3 import *
 
 class MainWin(QWidget):
     def __init__(self):
