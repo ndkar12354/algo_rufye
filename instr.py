@@ -31,5 +31,5 @@ line_prised = '0'
 line_final_1 = '0'
 line_final_2 = '0'
 
-final_text_1 = '214324'
-final_text_2 = 'fgfdkgjdfjkgf'
+final_text_1 = 'Индекс Руфье:'
+final_text_2 = 'Работоспособность сердца:'

@@ -12,6 +12,11 @@ class FinalWin(QWidget):
         self.setWindowTitle(txt_title)
         self.resize(win_w, win_h)
         self.move(win_x, win_y)
-    def initUI(self):
-      self.final_text_1 = QLabel(final_text_1)
-      self.final_text_2 = QLabel(final_text_2)
+    def initUI(self):       
+        self.final_text_1 = QLabel(final_text_1)
+        self.final_text_2 = QLabel(final_text_2)
+
+        self.layout = QVBoxLayout()
+        self.layout.addWidget(self.final_text_1, alignment=Qt.AlignCenter)
+        self.layout.addWidget(self.final_text_2, alignment=Qt.AlignCenter)
+        self.setLayout(self.layout)
